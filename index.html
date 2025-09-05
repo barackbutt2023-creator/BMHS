@@ -1,12 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <title>Welcome to Barack's World 🎮</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #e0f7fa;
+      color: #003366;
+    }
+
+    /* Side navigation */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #80deea;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border-right: 3px solid #4dd0e1;
+    }
+
+    .sidenav a {
+      padding: 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #b2ebf2;
+      color: #0288d1;
+    }
+
+    /* Content */
+    .content {
+      margin-left: 200px;
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      background-color: #e0f7fa;
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+    }
+
+    h2 {
+      color: #0288d1;
+    }
+
+    h1 {
+      color: #0077b6;
+      font-family: 'Lucida Handwriting', cursive;
+    }
+
+    #home {
+      background-color: #b3e5fc;
+    }
+
+    #about {
+      background-color: #81d4fa;
+    }
+
+    #contact {
+      background-color: #b2ebf2;
+    }
+
+    .emoji {
+      font-size: 24px;
+    }
+  </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="sidenav">
+  <a href="#home">🏠 Home</a>
+  <a href="#about">🎮 About Barack</a>
+  <a href="#contact">📞 Contact</a>
+</div>
+
+<div class="content">
+  <section id="home">
+    <h1>Welcome to Barack's World 🎮</h1>
+    <p>Hey, I'm Barack, and this is my world filled with gaming, tech, and blue vibes!</p>
+  </section>
+
+  <section id="about">
+    <h2>All About Me 🎮</h2>
+    <p>My name is <strong>Barack</strong>, and I’m all about video games, tech, and the color blue!</p>
+    <p>I love exploring new game worlds, playing with friends, and chatting about the latest in gaming. My favorite genre? Anything with a great story or multiplayer action!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s Connect! ✨</h2>
+    <p>You can find me on:</p>
+    <ul>
+      <li>🎮 Instagram: <a href="#">@barack.games</a></li>
+      <li>📧 Email: <a href="mailto:barack@example.com">barack@example.com</a></li>
+      <li>🎥 YouTube: <a href="#">@barackplays</a></li>
+    </ul>
+  </section>
+</div>
 
 </body>
 </html>
